@@ -5,9 +5,50 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprites name="chr">
+      <sprite>sprites\spr_chr_Matcha_move</sprite>
+      <sprite>sprites\spr_chr_Matcha_stand</sprite>
+      <sprite>sprites\spr_chr_Mushroom_move</sprite>
+      <sprite>sprites\spr_chr_Mushroom_stand</sprite>
+      <sprite>sprites\spr_chr_Shrimp_move</sprite>
+      <sprite>sprites\spr_chr_Shrimp_stand</sprite>
+      <sprite>sprites\spr_chr_SoySauce_move</sprite>
+      <sprite>sprites\spr_chr_SoySauce_stand</sprite>
+    </sprites>
+    <sprites name="skill">
+      <sprite>sprites\spr_sk_Shrimp_heal</sprite>
+      <sprite>sprites\spr_sk_Shrimp_sacrifice</sprite>
+      <sprite>sprites\spr_sk_Shrimp_shield</sprite>
+      <sprite>sprites\spr_sk_Shrimp_crit</sprite>
+    </sprites>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\background0</background>
+    <background>background\background1</background>
+    <background>background\background2</background>
+    <background>background\background3</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\script1.gml</script>
+  </scripts>
+  <objects name="objects">
+    <objects name="chr">
+      <object>objects\obj_chr_Shrimp</object>
+    </objects>
+    <objects name="skill">
+      <object>objects\obj_sk_Shrimp_heal</object>
+      <object>objects\obj_sk_Shrimp_sacrifice</object>
+      <object>objects\obj_sk_Shrimp_shield</object>
+      <object>objects\obj_sk_Shrimp_crit</object>
+    </objects>
+  </objects>
+  <timelines name="timelines"/>
+  <rooms name="rooms">
+    <room>rooms\test</room>
+    <room>rooms\hub_test</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
