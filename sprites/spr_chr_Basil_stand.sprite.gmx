@@ -7,10 +7,10 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>7</bbox_left>
-  <bbox_right>114</bbox_right>
-  <bbox_top>18</bbox_top>
-  <bbox_bottom>107</bbox_bottom>
+  <bbox_left>8</bbox_left>
+  <bbox_right>121</bbox_right>
+  <bbox_top>22</bbox_top>
+  <bbox_bottom>104</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -20,10 +20,10 @@
   <width>128</width>
   <height>128</height>
   <frames>
-    <frame index="0">images\spr_chr_Shrimp_stand_0.png</frame>
-    <frame index="1">images\spr_chr_Shrimp_stand_1.png</frame>
-    <frame index="2">images\spr_chr_Shrimp_stand_2.png</frame>
-    <frame index="3">images\spr_chr_Shrimp_stand_3.png</frame>
-    <frame index="4">images\spr_chr_Shrimp_stand_4.png</frame>
+    <frame index="0">images\spr_chr_Basil_stand_0.png</frame>
+    <frame index="1">images\spr_chr_Basil_stand_1.png</frame>
+    <frame index="2">images\spr_chr_Basil_stand_2.png</frame>
+    <frame index="3">images\spr_chr_Basil_stand_3.png</frame>
+    <frame index="4">images\spr_chr_Basil_stand_4.png</frame>
   </frames>
 </sprite>

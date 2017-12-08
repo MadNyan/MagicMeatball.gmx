@@ -15,6 +15,8 @@
       <sprite>sprites\spr_chr_Shrimp_stand</sprite>
       <sprite>sprites\spr_chr_SoySauce_move</sprite>
       <sprite>sprites\spr_chr_SoySauce_stand</sprite>
+      <sprite>sprites\spr_chr_Basil_stand</sprite>
+      <sprite>sprites\spr_chr_Basil_move</sprite>
     </sprites>
     <sprites name="skill">
       <sprite>sprites\spr_sk_Shrimp_heal</sprite>
@@ -43,8 +45,17 @@
       <object>objects\obj_sk_Shrimp_shield</object>
       <object>objects\obj_sk_Shrimp_crit</object>
     </objects>
+    <objects name="position">
+      <object>objects\obj_position_player01</object>
+      <object>objects\obj_position_player02</object>
+      <object>objects\obj_position_player03</object>
+      <object>objects\obj_position_player04</object>
+      <object>objects\obj_position_enemy01</object>
+      <object>objects\obj_position_enemy02</object>
+      <object>objects\obj_position_enemy03</object>
+      <object>objects\obj_position_enemy04</object>
+    </objects>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\test</room>
     <room>rooms\hub_test</room>
