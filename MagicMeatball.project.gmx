@@ -33,8 +33,16 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\move.gml</script>
-    <script>scripts\approach.gml</script>
+    <scripts name="CommonMothed">
+      <script>scripts\Approach.gml</script>
+      <script>scripts\Chance.gml</script>
+      <script>scripts\JumpInDirection.gml</script>
+      <script>scripts\Wave.gml</script>
+      <script>scripts\Wrap.gml</script>
+    </scripts>
+    <script>scripts\Gravity.gml</script>
+    <script>scripts\Jump.gml</script>
+    <script>scripts\Move.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="chr">
