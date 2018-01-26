@@ -48,8 +48,11 @@
   </scripts>
   <objects name="objects">
     <objects name="chr">
-      <object>objects\obj_chr_Shrimp</object>
-      <object>objects\obj_chr_Mushroom</object>
+      <object>objects\obj_team_1</object>
+      <object>objects\obj_team_2</object>
+      <object>objects\obj_team_3</object>
+      <object>objects\obj_team_4</object>
+      <object>objects\obj_team_parent</object>
     </objects>
     <objects name="skill">
       <object>objects\obj_sk_Shrimp_heal</object>
